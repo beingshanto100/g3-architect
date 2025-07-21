@@ -13,12 +13,14 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
    
 }
 .nav-link{
     display: flex;
     text-decoration: none;
     font-weight: 500;
+    font-size: 1.1rem;
 
     
 }
@@ -43,5 +45,43 @@
 .navbar,.banner{
     max-width: 1440px;
     margin: 0 auto;
+    
 }
-
+.brand{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-description{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: none;
+   
+}
+.banner-image{
+    border-radius: 8px;
+    width: 100%;
+}
+@media screen and(max-width:576px) {
+    .navbar, .nav-link{
+        flex-direction: column;
+    }
+    
+}
