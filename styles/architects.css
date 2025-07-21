@@ -10,3 +10,38 @@
   font-variation-settings:
     "wdth" 100;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav-link{
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+
+    
+}
+.bg{
+    background-color: rgba(255, 144, 14, 0.1);
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+/* dark:02 */
+
+.text-gray{
+    color: #424242;
+}
+/* dark:03 */
+.text-gray1{
+    color: #727272;
+}
+.navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
