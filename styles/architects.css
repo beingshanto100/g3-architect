@@ -212,6 +212,12 @@ footer{
         grid-template-columns: repeat(1,1fr);
 
     }
+    .some-fact{
+        flex-direction: column;
+    }
+    .sponsor{
+        flex-direction: column-reverse;
+    }
 
     
 }
